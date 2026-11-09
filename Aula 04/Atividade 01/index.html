@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01 - Números de 1 a 200</title>
+</head>
+<body>
+    <h1>Números de 1 a 200</h1>
+    <h2>For</h2>
+    <p id="for"></p>
+    <h2>While</h2>
+    <p id="while"></p>
+
+    <script>
+        // Imprime os números de 1 a 200 usando FOR.
+        let textoFor = "";
+        for (let numero = 1; numero <= 200; numero++) {
+            textoFor += "O número é: " + numero + "<br>";
+        }
+        document.getElementById("for").innerHTML = textoFor;
+
+        // Imprime os números de 1 a 200 usando WHILE.
+        let contador = 1;
+        let textoWhile = "";
+        while (contador <= 200) {
+            textoWhile += "O número é: " + contador + "<br>";
+            contador++;
+        }
+        document.getElementById("while").innerHTML = textoWhile;
+    </script>
+</body>
+</html>

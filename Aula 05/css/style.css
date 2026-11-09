@@ -1,0 +1,20 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 5em;
+    text-align: center;
+    color: white;
+}
+
+#btnMulher {
+    background-color: blueviolet;
+    padding: 1em;
+}
+
+#btnHomem {
+    background-color: blue;
+    padding: 1em;
+}
